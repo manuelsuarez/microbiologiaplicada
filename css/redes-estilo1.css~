@@ -1,0 +1,49 @@
+#facebook-posts{
+	width: 96%;
+	padding: 2%;
+	color: #fff;
+	overflow: auto;
+	
+}
+#facebook-posts .fb-wall-box{
+	border:0px dashed #fff;
+	margin: 3% 0%;
+}
+#facebook-posts .fb-wall-avatar{
+	float: left;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	height: 30px;
+	width: 30px;
+}
+#facebook-posts .fb-wall-message{
+	font-size: 0.8em;
+	width: 80%;
+	border:0px dashed #ea8;
+	display: block;
+	margin-left: 35px;
+}
+#facebook-posts a{
+	color: #ddd;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+#facebook-posts .fb-wall-name{
+	display: none;
+}
+#facebook-posts .fb-wall-date{
+	font-size: 0.6em;
+	margin-left: 35px;
+}
+#facebook-posts .fb-wall-description{
+	font-size: 0.7em;
+}
+#facebook-posts .fb-wall-icon{
+	width: 10px;
+	height: 10px;
+}
+#facebook-posts .fb-wall-picture{
+	margin-left: 35px;
+	margin-top: 2px;
+}

@@ -1,0 +1,182 @@
+html{height: 100%;}
+body{height: 100%;}
+#wrapper{
+	position: relative;
+}
+#header{
+	background: rgb(10,67,115);	
+	background:rgba(10,67,115,0.85);
+	width: 80%;
+	height: 76px;
+	position: absolute;
+	top: 10px;
+}
+#header .logo{
+	float: left;
+}
+#header h4{
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 0.75em;
+	position: absolute;
+	bottom: 2px;
+	left:  268px;
+	margin-left:10px; 
+	display: block;
+}
+#redes{
+	background: rgb(10,67,115);	
+	background:rgba(10,67,115,0.85);
+	width: 20%;
+	height: 76px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+#redes a{
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	font-size: 0.8em;
+	font-family: Arial;
+}
+#fondo-redes{
+	background: url('../img/bg-redes-rounded.png');
+	width: 145px;
+	height: 35px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+#redes img{
+	position: absolute;
+	display: none;
+	z-index: 4;
+}
+#redes #tab{
+	width: 79px;
+	height: 57px;
+	background-image: url('../img/tab.png');
+	position: absolute;
+	top: 0px;
+	left:  -22px;
+	z-index: 3;
+}
+		.btn-fb{
+			left: 0px;			
+		}
+		.btn-tw{
+			left: 55px;
+		}
+		.btn-yt{
+			left: 110px;
+		}
+/*-------------------------------Menu----------------------*/
+#menu-wrapper{
+	position: absolute;
+	left: 0px;
+	border:0px solid #fff;
+	width: 205px;
+	height: 100%;
+	top: 0px;
+	margin-top: 86px;
+}
+#menu{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 10%;
+}
+#menu li{
+	background: rgb(0,0,0);	
+	background:rgba(0,0,0,0.85);
+	padding-left: 10px;
+	width: 92px;
+	padding-top: 32px;
+	height: 45px;
+	border-top:1px dashed #fff;
+	z-index: 90;
+	position: relative;
+}
+#menu li a{
+	font-family: 'Questrial';
+	font-size: 0.8em;
+	color: #ddd;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	z-index: 200;
+	position: relative;
+}
+/*con el cual se visualiza el selector de activo y que recorre al hover*/	
+.li-menu-activo{
+	background: url("../img/bg-menu-li-activo.png");
+	width: 114px;
+	height: 77px;
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+	z-index: 100;
+	display: none;
+}
+/*---------------------Contenido-------------------------------*/
+		#contenido{
+			position: absolute;
+			margin-top: 20px;
+			top: 86px;
+			right: 20%;
+			margin-right: 5%;
+		}	
+		#barra-lateral{
+			font-family: Arial;
+			position: absolute;
+			margin-top: 0px;
+			top:86px;
+			right:0px;
+			width: 20%;
+			height: 100%;		
+		}
+		#redes-display{
+			background: #0a4373;
+			position: absolute;
+		}
+#chat-barra-inferior{
+	position: fixed;
+	bottom: 20px;
+	height: 38px;
+	width: 20%;
+	font-size: 0.8em;
+	text-align: center;
+	color: #fff;
+	background-image: url('../img/bg-footer.png');
+}
+#chat-barra-inferior p{
+	float: left;
+	margin-left: 4%;
+	margin-top: 10px;
+	
+}
+.btn-chat{
+	background-image: url('../img/arrow-up.png');
+	width: 37px;
+	height: 37px;
+	display: block;
+	float: right;
+	margin-right: 2%;
+	cursor: 	hand;
+	cursor: pointer;
+}
+		
+/*-------------------------FOOOTER--------------------*/
+#footer{
+	position: fixed;
+	bottom: 20px;
+	height: 28px;
+	padding-top: 10px;
+	width: 76%;
+	padding-left: 3%;
+	color: #fff;
+	background-image: url('../img/bg-footer.png');
+}

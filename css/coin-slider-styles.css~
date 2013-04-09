@@ -1,0 +1,46 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-button-coin-slider { 
+	background-image: url('../img/round-blanco.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+ 	height: 16px; 
+ 	width: 16px; 
+ 	float: left; 	  
+ }
+.cs-active { 
+	background-image: url('../img/round-activo.png'); 	
+}
+
+.cs-title { width: 588px; padding: 10px; background-color: #000000; color: #FFFFFF; font-family: Arial; font-size: 0.7em}
+
+
+.cs-next { 
+	background-image: url('../img/btn-next.png');
+	width: 37px;
+	height: 37px;
+	right: 18px;
+	position:relative;
+	top: 102px;
+}
+.cs-prev{ 
+	background-image: url('../img/btn-prev.png');
+	width: 37px;
+	height: 37px;
+	left: 165px;
+	top: 102px;
+} 
+
+#cs-buttons-coin-slider{
+
+	position: relative;
+	top:-105px;
+	left: 10px;	
+}
